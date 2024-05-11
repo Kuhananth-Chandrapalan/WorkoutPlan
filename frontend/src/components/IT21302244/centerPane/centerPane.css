@@ -1,0 +1,208 @@
+.centerPane {
+    margin-top: 3.5%;
+    color: white;
+    /* border: 1px solid greenyellow; */
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+.center-pane-head {
+    /* border: 1px solid red; */
+    z-index: 1000;
+}
+
+.addPost {
+    display: flex;
+    /* border: 1px solid #F9C91B; */
+    padding: 0.5%;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: black;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2); /* Shadow properties */
+}
+
+.add-post-img {
+    flex: 1;
+    /* border: 1px solid greenyellow;   */
+    
+}
+
+.add-post-img img {
+    width: 42px;
+    height: 42px;
+    border-radius: 100%;
+    margin: 5%;
+    background-size: contain;
+    /* border: 2px solid #F9C91B; */
+}
+
+.add-post-input {
+    flex: 15;
+    /* border: 1px solid greenyellow;   */
+    cursor: pointer;
+    align-items: center;
+}
+
+.add-post-input input {
+    background-color: transparent;
+    outline: none;
+    border: none;
+    width: 100%;
+    text-align: center;
+    /* border: 1px solid yellow; */
+    margin: 10px auto;
+    cursor: pointer;
+}
+
+.post {
+    border-radius: 10px;
+    margin: 10px auto;
+}
+
+.post-header {
+    display: flex;
+    background-color: black;
+    padding: 1%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.post-header-img {
+    flex: 1;
+    /* border: 1px solid greenyellow; */
+    margin: 1%;
+}
+
+.post-header-img img {
+    width: 62px;
+    height: 62px;
+    border-radius: 100%;
+    /* margin: 8%; */
+    background-size: contain;
+    /* border: 2px solid #F9C91B; */
+}
+
+.post-header-description {
+    flex: 15;
+    margin: 1%;
+    margin-top: 1.5%;
+    align-items: center;
+    /* margin-left: 1%; */
+    /* border: 1px solid greenyellow; */
+}
+
+.post-header-name span { 
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 1%;
+}
+
+.post-header-message {
+    font-size: 14px;
+    margin-top: 0%;
+}
+
+.post-header-actions {
+    flex: 3;
+    /* border: 1px solid greenyellow; */
+    text-align: center;
+    /* margin: 1%; */
+}
+
+.post-header-follow-button {
+    margin: 0%;
+}
+
+/* .post-header-follow-button button {
+    height: 28px;
+} */
+
+.follow-button {
+    margin-top: 4%;
+    margin-bottom: 4%;
+}
+
+.post-count {
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+.post-header-actions-dots {
+    flex: 1;
+    /* border: 1px solid #F9C91B; */
+    margin: 1%;
+    
+}
+
+.post-header-actions-dots span {
+    margin-top: 0%;
+    width: 100%;
+    cursor: pointer;
+    /* height: 100%; */
+    align-items: center;
+    text-align: center;
+    /* border: 1px solid red; */
+}
+
+.post-content-section {
+    height: 100%;
+}
+
+.post-content-section #carouselExample {
+    height: 50%;
+}
+
+.post-footer {
+    display: block;
+    background-color: black;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.post-footer-actions {
+    display: flex;
+    padding: 1%;
+    padding-bottom: 0%;
+    /* justify-content: space-between; */
+    /* border : 1px solid #F9C91B; */
+    
+}
+
+.post-footer-actions  .post-footer-comment, .post-footer-share {
+    margin-left: 2%;
+}
+
+.post-footer-actions  .post-footer-save {
+    margin-left: 83%;
+}
+
+.post-footer-bottom {
+    padding: 1%;
+}
+
+
+/* Reduced top padding for the main content container */
+.reduced-padding-top {
+    padding-top: 1rem; /* Adjust this value to suit the needed space */
+}
+.fixed-top-container {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+}
+
+.fixed-top-container .btn-primary {
+    background-color: #a5c3ff;  /* Green background */
+    border-color: #ffffff;  /* Green border, if any */
+    color: rgb(0, 0, 0);  /* White text color */
+    padding: 10px 20px;  /* Larger padding for a bigger button */
+    font-weight: bold;
+    font-size: 30px;  /* Larger font size */
+}
+
+
+
+.fixed-top-container .btn-primary:hover {
+    background-color: #9b9d9b;  /* Slightly darker green on hover */
+}

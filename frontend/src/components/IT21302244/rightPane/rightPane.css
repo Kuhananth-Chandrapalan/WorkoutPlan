@@ -1,0 +1,10 @@
+.rightPane {
+    height: 100%;
+    margin-top: 80px; /* Adjust this value to match your navbar's height */
+}
+
+.card {
+    width: 260px;
+    align-items: center;
+    margin: 20px auto;
+}

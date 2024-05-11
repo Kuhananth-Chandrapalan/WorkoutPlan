@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+
+.navbar {
+    padding: 2px 3%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    z-index: 10;
+    border-bottom: 2px solid #F9C91B;
+    display: flex;
+    align-items: center;
+    min-height: 50px;
+}
+
+.logo img {
+    width: 30px;
+    height: 30px;
+}
+
+.navbar-brand {
+    font-size: 24px;
+    color: #fff;
+}
+
+.maincomponents {
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    margin-left: 5%;
+}
+
+.maincomponents span, .maincomponents a {
+    padding: 0 15px;
+    color: #fff;  /* Ensure the icons are visible */
+    font-size: 24px;  /* Visible icon size */
+}
+
+.search-bar input {
+    height: 30px;
+}
+
+.navbarProfile img {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    border: 2px solid;
+}
+
+.material-icons {
+    font-family: 'Material Icons';
+    color: #fff;  /* Ensure icons are visible */
+    font-size: 24px;  /* Adjust size as needed */
+}
+
+.btn-outline-light {
+    padding: 5px 10px;
+    font-size: 14px;
+}

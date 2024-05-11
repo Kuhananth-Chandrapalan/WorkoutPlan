@@ -1,0 +1,89 @@
+.container.view-workplan {
+    max-width: 100%; /* Use full width to accommodate all days */
+    margin: 60px auto; /* Increased top margin */
+    padding: 10px; /* Existing padding */
+    background-color: #181818; /* Dark gray background */
+    color: #e0e0e0; /* Light gray text for high contrast */
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.5);
+}
+
+
+.workplan-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+    color: #17a2b8; /* Gold color for an eye-catching header */
+}
+
+.workplan-details {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr); /* Ensure seven columns for seven days */
+    gap: 10px;
+    text-align: center;
+}
+
+.detail {
+    background: #222; /* Slightly lighter dark background for details */
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+}
+
+.detail h3 {
+    color: #4caf50; /* Vibrant green for headings */
+    margin-bottom: 10px;
+}
+
+.detail p {
+    font-size: 1.1em;
+    color: #e0e0e0; /* Light grey to ensure readability */
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+/* Responsive adjustments for medium and smaller screens */
+@media (max-width: 1200px) {
+    .workplan-details {
+        grid-template-columns: repeat(3, 1fr); /* Adjust to 3 columns on medium screens */
+    }
+}
+
+@media (max-width: 768px) {
+    .workplan-details {
+        grid-template-columns: 1fr; /* Single column layout on small screens */
+    }
+
+    .container.view-workplan {
+        padding: 10px;
+    }
+
+    .detail {
+        padding: 10px;
+    }
+}
+.workplan-actions {
+    display: flex;
+    justify-content: center; /* Center the button horizontally */
+    margin-top: 20px; /* Space from the details */
+    padding-bottom: 20px; /* Padding at the bottom for aesthetics */
+}
+
+.btn-warning {
+    background-color: #3b84f9;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-warning:hover {
+    background-color: #e0a800;
+}
